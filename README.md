@@ -1,5 +1,4 @@
-Themosis framework
-==================
+# Themosis framework
 
 [![Build Status](https://travis-ci.org/themosis/themosis.svg?branch=dev)](https://travis-ci.org/themosis/themosis)
 
@@ -7,12 +6,12 @@ The Themosis framework is a tool aimed to WordPress developers of any levels. Bu
 
 Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
 
-Development team
-----------------
+## Development team
+
 The framework was created by [Julien Lambé](https://www.themosis.com/), who continues to lead the development.
 
-Contributing
-------------
+## Contributing
+
 Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
 
 - Reporting a bug issue
@@ -24,6 +23,6 @@ Any help is appreciated. The project is open-source and we encourage you to part
 
 For details about contributing to the framework, please check the [contribution guide](https://framework.themosis.com/docs/1.3/contributing).
 
-License
--------
+## License
+
 The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).

@@ -1,31 +1,26 @@
-# Dependencies
-vendor
-node_modules
-bower_components
-
-# PHP CodeSniffer
-cs_fixer*
-.php_cs.cache
+# Ignore all files that must not exist in result image
+.git
+.gitignore
+docker-compose*.yml
+.editorconfig
+.gitlab-ci.yml
+Makefile*
+tslint.json
 
 # Numerous always-ignore extensions
 *.diff
 *.err
 *.orig
-*.log*
+*.log
 *.rej
 *.swo
 *.swp
 *.zip
 *.vi
 *~
-*.lock
-!**/yarn.lock
-!**/composer.lock
 
 # Dotenv
-.env
-.env.*
-!.env.sample
+.env*
 
 # OS or Editor folders
 .DS_Store
@@ -48,8 +43,11 @@ nbproject
 *.sql
 *.tar*
 
-# Project folders and files to ignore
+# Project files
+**/vendor
+**/node_modules
+**/bower_components
 /htdocs/cms/
 /htdocs/content/uploads/
-/htdocs/content/languages/
-/htdocs/dist/
+/htdocs/content/upgrade/
+README.md
