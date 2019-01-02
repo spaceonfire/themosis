@@ -3,6 +3,4 @@
 /**
  * Application routes.
  */
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::any('/', 'WordPressController@home');

@@ -8,5 +8,5 @@ use Themosis\Core\Validation\ValidatesRequests;
 
 class Controller extends BaseController
 {
-    use FormHelper, ValidatesRequests;
+	use FormHelper, ValidatesRequests;
 }
